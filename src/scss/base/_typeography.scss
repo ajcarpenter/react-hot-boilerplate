@@ -1,0 +1,34 @@
+body {
+  color: $text-color;
+  font-style: normal;
+  font-size: ms(0);
+  line-height: 1.4;
+  font-family: $text-font-stack;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+	font-size: ms(0);
+}
+
+h4, h5, h6 {
+	font-size: ms(2);
+}
+
+h3 {
+	font-size: ms(3);
+}
+
+h2 {
+	font-size: ms(4);
+}
+
+h1 {
+	font-size: ms(5);
+}
+
+a {
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}

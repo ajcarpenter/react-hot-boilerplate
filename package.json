@@ -1,14 +1,14 @@
 {
   "name": "react-hot-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "version": "2.0.0",
+  "description": "Boilerplate for React/Redux projects with hot code reloading",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/ajcarpenter/react-hot-boilerplate.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,12 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Andrew Carpenter <andrewcarpenter87@gmail.com> (https://github.com/ajcarpenter)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+    "url": "https://github.com/ajcarpenter/react-hot-boilerplate/issues"
   },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "homepage": "https://github.com/ajcarpenter/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
@@ -43,7 +43,25 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.5",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "font-awesome": "^4.7.0",
+    "modularscale-sass": "^2.1.1",
+    "node-sass": "^4.1.1",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "react-helmet": "^3.2.3",
+    "react-redux": "^5.0.1",
+    "react-router": "^3.0.0",
+    "react-router-redux": "^4.0.7",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-node-logger": "^0.1.0",
+    "redux-thunk": "^2.1.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
   }
 }

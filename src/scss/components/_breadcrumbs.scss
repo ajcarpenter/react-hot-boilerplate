@@ -1,0 +1,27 @@
+.breadcrumbs {
+	color: $gray-light;
+	font-weight: light;
+	@extend .list-inline;
+
+}
+
+.breadcrumbs__item {
+	margin-right: 0;
+	@extend .list-inline-item;
+
+	&:not(:last-child) {
+		margin-left: 0;
+		margin-right: 0;
+		
+		&:after {
+			content: '»';
+			display: inline-block;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	}
+}
+
+.breadcrumbs__link {
+	color: inherit;
+}

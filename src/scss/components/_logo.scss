@@ -1,0 +1,27 @@
+.logo {
+	margin: 0;
+}
+
+.logo__image {
+	width: 220px;
+}
+
+.logo--sm {
+
+	.logo__image {
+		width: 110px;
+	}
+}
+
+.logo--lg {
+
+	.logo__image {
+		width: 330px;
+	}
+}
+
+.logo__link {
+	&, &:focus, &:active {
+		outline: none;
+	}
+}
